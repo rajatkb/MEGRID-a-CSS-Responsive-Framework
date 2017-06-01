@@ -1,25 +1,8 @@
 # MEGRID-a-CSS-Responsive-Framework
 This is grid system that i have designed for general responsive of a webpage. Yes there are other alternatives but a home brewn one never hurts.  
 #NAVBAR
-	<nav >
-	<div class="navbutton">
-		<span></span>
-		<span></span>
-		<span></span>
-	</div>
-	<ul class="nav-right">
-		<li>About </li>
-		<li>Portfolio </li>
-		<li>Contact</li>
-	</ul>
-	</nav>
-	<div class="frame">
-	//YOUR ENTIRE HTML BODY GOES RYT INISIDE HERE
-	//THIS ALLOWS FOR SEGREGATION BETWEEN menu and content
-	</div>
-
+	![Alt text](http://imgur.com/1ZeISLK general markup)
 That is the general layout of the navbar . You have your Standard list of 
-
 items and then you have. Need to include a Brand Name part . 
 	> Use navbar-right for right side navbar
 	>navbar-left for left side
@@ -39,7 +22,7 @@ z-index navbutton: 9010
 
 #GRID UI
 
-* The Row system starts with 
+ >The Row system starts with 
 	.grid-contain.responsive
 		.grid-50
 		.grid-50
@@ -62,12 +45,5 @@ you devide the grids do accordingly
 	It uses flexbox so beware of as to how it may start behaving in certain browsers.
 #Text
 
-	Under general typohgraphic rule content is 16pt with 1.5 line 
+   Under general typohgraphic rule content is 16pt with 1.5 line 
    height and general content is 16px with line height 24px.	
-
-
-
-
-dwqdq
-
-	
