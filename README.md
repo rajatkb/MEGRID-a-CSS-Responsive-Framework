@@ -1,7 +1,9 @@
 # MEGRID-a-CSS-Responsive-Framework
 This is grid system that i have designed for general responsive of a webpage. Yes there are other alternatives but a home brewn one never hurts.  
 #NAVBAR
-	![Alt text](http://imgur.com/1ZeISLK general markup)
+
+![Alt text](http://i.imgur.com/1ZeISLK.png "general markup")
+	
 That is the general layout of the navbar . You have your Standard list of 
 items and then you have. Need to include a Brand Name part . 
 	> Use navbar-right for right side navbar
