@@ -95,64 +95,71 @@ p{
 	padding: 0px;
 }
 
-.grid-contain .grid-10{
+.grid-contain > .grid-10{
 	display: block;
 	width: 10%;
 	margin: auto;
 	float: left;
 }
-.grid-contain .grid-20{
+.grid-contain > .grid-20{
 	display: block;
 	width: 20%;
 	margin: auto;
 	float: left;
 }
-.grid-contain .grid-30{
+.grid-contain > .grid-30{
 	display: block;
 	width: 30%;
 	margin: auto;
 	float: left;
 }
-.grid-contain .grid-40{
+.grid-contain > .grid-40{
 	display: block;
 	width: 40%;
 	margin: auto;
 	float: left;
 }
-.grid-contain .grid-50{
+.grid-contain > .grid-50{
 	display: block;
 	width: 50%;
 	margin: auto;
 	float: left;
 }
-.grid-contain .grid-60{
+.grid-contain > .grid-60{
 	display: block;
 	width: 60%;
 	margin: auto;
 	float: left;
 }
-.grid-contain .grid-70{
+.grid-contain > .grid-70{
 	display: block;
 	width: 70%;
 	margin: auto;
 	float: left;
 }
-.grid-contain .grid-80{
+.grid-contain > .grid-80{
 	display: block;
 	width: 80%;
 	margin: auto;
 	float: left;
 }
-.grid-contain .grid-90{
+.grid-contain > .grid-90{
 	display: block;
 	width: 90%;
 	margin: auto;
 	float: left;
 }
 
-.grid-contain .grid-33{
+.grid-contain > .grid-33{
 	display: block;
 	width: 33.33%;
+	margin: auto;
+	float: left;
+}
+
+.grid-contain > .grid-25{
+	display: block;
+	width: 25%;
 	margin: auto;
 	float: left;
 }
@@ -179,29 +186,23 @@ p{
 		max-height: none;
 	}
 	
-	.grid-contain.responsive .grid-10,
-	.grid-contain.responsive .grid-20,
-	.grid-contain.responsive .grid-30,
-	.grid-contain.responsive .grid-40,
-	.grid-contain.responsive .grid-50,
-	.grid-contain.responsive .grid-60,
-	.grid-contain.responsive .grid-70,
-	.grid-contain.responsive .grid-80,
-	.grid-contain.responsive .grid-90,
-	.grid-contain.responsive .grid-33{
+	.grid-contain.responsive > .grid-10,
+	.grid-contain.responsive > .grid-20,
+	.grid-contain.responsive > .grid-30,
+	.grid-contain.responsive > .grid-40,
+	.grid-contain.responsive > .grid-50,
+	.grid-contain.responsive > .grid-60,
+	.grid-contain.responsive > .grid-70,
+	.grid-contain.responsive > .grid-80,
+	.grid-contain.responsive > .grid-90,
+	.grid-contain.responsive > .grid-33{
 		width: 100%;
 		float: none;
 		height: 100%;
 		margin: 5px auto;
 	}
 	
-	.grid-contain.sustain .grid-50{
-		display: block;
-		width: 50%;
-		margin: auto;
-		min-width: 0px;
-		float: left;
-	}
+	
 	
 	nav{
 		position: fixed;
