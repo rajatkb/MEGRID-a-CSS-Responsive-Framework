@@ -2,7 +2,8 @@
 This is grid system that i have designed for general responsive of a webpage. Yes there are other alternatives but a home brewn one never hurts.  
 #NAVBAR
 
-![Alt text](http://i.imgur.com/1ZeISLK.png "general markup")
+# DEMO
+<img src="https://github.com/rajatkb/MEGRID-a-CSS-Responsive-Framework/blob/master/ezgif-3-d702b96c1cbd.gif" />
 	
 That is the general layout of the navbar . You have your Standard list of 
 items and then you have. Need to include a Brand Name part . 
@@ -11,11 +12,15 @@ items and then you have. Need to include a Brand Name part .
 	>navbutton is necessary for that button structure.
 	> inside navbutton there can be anything like span div or p or anything . I would recommend using span or div though. following this rule does most of your job.<br>
 
+## Sample
+![Alt text](http://i.imgur.com/1ZeISLK.png "general markup")
+
 If you want to change the looks of the layour which you will have to eventuatlly change it as you see fit the colours and all other stuff.
 
 z-index of nav : 9000 <br>
 z-index : menu-panel : 9005 <br>
 z-index navbutton: 9010 <br>
+
 
 
 #GRID UI
